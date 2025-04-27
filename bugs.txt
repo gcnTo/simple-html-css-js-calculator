@@ -1,0 +1,8 @@
+Open:
+
+Solved: 
+    The operands list doesn't get cleared
+
+    The result doesn't get refreshed
+
+    The queue of nums doesnt get cleared // Solution: Moved outside of switch statement. Into the click call.

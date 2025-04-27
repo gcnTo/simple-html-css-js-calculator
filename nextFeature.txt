@@ -1,0 +1,4 @@
+Planned:
+    Add a key to clear out the operands
+
+Released:

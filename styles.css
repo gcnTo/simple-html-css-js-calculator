@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    font-size: 48px;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: row;
+    width: 80vh;
+    gap: 15px;
+    flex-basis: 12px;
+}
+
+main > div > * {
+    text-align: center;
+    margin: 1px;
+}
+
+main > div:nth-last-child(5) > div{
+    border: 2px solid green;
+    flex: 2;
+}
+
+main > div:nth-last-child(6) > div{
+    border: 2px solid green;
+    flex: 2;
+}
+
+main > div:nth-last-child(4) > div{
+    border: 2px solid green;
+    flex: 2;
+}
+
+main > div:nth-last-child(5) > div:last-child{
+    border: 2px solid blue;
+    flex: 2;
+}
+
+main > div:nth-last-child(6) > div:last-child{
+    border: 2px solid blue;
+    flex: 2;
+}
+
+main > div:nth-last-child(4) > div:last-child{
+    border: 2px solid blue;
+    flex: 2;
+}
+
+main > div:nth-last-child(3) > div:first-child {
+    border: 2px solid red;
+    flex: 3.2;
+}
+
+main > div:nth-last-child(3) > div:last-child {
+    border: 2px solid blue;
+    flex: 1;
+}
+
+ .operands {
+    margin-top: 5%;
+}
+
+ .operator {
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 30px;
+    text-align: center;
+}
